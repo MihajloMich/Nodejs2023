@@ -14,7 +14,7 @@
 // console.log(a);
 // const b = 15;
 // console.log(b);
-// b = 30
+// b = 30s
 //console.log(b);
 
 //let niza = [1, true, 2.5, "zdravo"];
