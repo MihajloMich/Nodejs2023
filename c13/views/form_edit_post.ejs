@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogpost - Edit <% data.title %></title>
+  </head>
+  <body>
+    <h1>Add new blogpost</h1>
+    <form method="POST" action="./post/add"></form>
+    <label for="">Blogpost Title</label>
+    <input type="text" name="title" value="<%" data.title % />
+    placeholder="blogpost Title" required />
+    <br /><br />
+    <label for="">Blogpost content</label>
+    <textarea
+      name="cont"
+      id="blogpost_content"
+      cols="30"
+      rows="10"
+      placeholder="blogpost content"
+      required
+      <%="data.content"
+      %
+    >
+    ></textarea
+    >
+    <button type="sumbit">Update blogpost</button>
+  </body>
+</html>
